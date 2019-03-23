@@ -1,0 +1,27 @@
+{
+  "name": "vuejs_babel7",
+  "version": "1.0.0",
+  "description": "base project with support of modern js",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --progress --hot",
+    "build": "webpack --mode production --progress",
+    "test": "npm run unit && npm run e2e"
+  },
+  "author": "Dmitry Dementev <dem@oldschooldev.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
